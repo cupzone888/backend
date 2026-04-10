@@ -10,7 +10,7 @@ export class AppService {
     return 'Service is running!';
   }
 
-  getGuest(): string 
+  getGuest(): string {
     return 'Welcome, guest!';
   }
 }
