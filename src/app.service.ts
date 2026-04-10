@@ -9,4 +9,8 @@ export class AppService {
   getHealth(): string {
     return 'Service is running!';
   }
+
+  getGuest(): string {
+    return 'Welcome, guest!';
+  }
 }
