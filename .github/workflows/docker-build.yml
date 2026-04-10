@@ -74,6 +74,7 @@ jobs:
             docker run -d \
               --name $CONTAINER \
               --restart unless-stopped \
+              -p $PORT:3000 \
               -e ENV=$ENV \
               --log-opt max-size=10m \
               --log-opt max-file=3 \
